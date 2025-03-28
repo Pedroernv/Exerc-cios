@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro do Usuario</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+</head>
+<body>
+    <nav><div class="form-log">
+        <h2>Formularios</h2>
+    </div>
+        <div class="menu">
+            <a href="Pizza.html" target="_blank">Pizza</a>
+            <a href="Produto.html" target="_blank">Produto</a>
+            <a href="Evento.html" target="_blank">Evento</a>
+            <a href="Contato.html" target="_blank">Contato</a>
+        </div>
+    </div>
+    </nav>
+    <form><h2>Registro</h2>
+        <div class="entrada">
+            <label>Nome Completo: </label>
+            <input type="text" id="nome" name="Nome" placeholder="" required>
+        </div>
+        <div class="entrada">
+            <label>Email: </label>
+            <input type="email" id="email" name="Email" placeholder="" required>
+        </div>
+        <div class="entrada">
+            <label>Sexo: </label>
+            <select>
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Outros</option>
+            </select>
+        </div>
+        <div class="entrada">
+            <label>Data De Nascimento: </label>
+            <input type="datetime" placeholder="dd-mm-yyyy" required>
+        </div>
+        <div class="entrada">
+            <label>Pais: </label>
+            <input type="text" id="pais" name="Pais" placeholder="">
+        </div>
+        <div class="entrada">
+            <input type="checkbox" id="check" required><label id="termos">Aceito os termos e condicoes</label>
+        </div>
+        <button type="submit" id="botao">Registrar</button>
+    </form>
+    
+</body>
+</html>

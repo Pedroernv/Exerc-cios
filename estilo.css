@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'myFont';
+    src: url(Oswald/Oswald-VariableFont_wght.ttf) format('truetype');
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'myFont', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    text-align: right;
+    /* background-color: #0088a1; */
+    font-size: 20px;
+}
+
+nav .form-log{
+    flex: 20%;
+    margin-left: 10%;
+    text-align: left;
+    color: #e7007c;
+}
+
+nav .menu{
+    margin-right: 10%;
+    text-align: right;
+    flex: 60%;
+}
+
+nav .menu a{
+    text-decoration: none;
+    color: #031a52;
+    padding: 6px 10px;
+    margin-right: 2%;
+}
+
+nav .menu a:hover{
+    color: #e7007c;
+    border-bottom: 3px solid #0f0a37;
+    font-weight: bold;
+}
+
+form{
+    margin: auto auto auto auto;
+    width: 250px;
+    background: transparent;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    border: 2px solid #98aaae;
+    border-radius: 10px;
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0 0 30px rgba(0,0,0, .5);
+}
+
+form h2{
+    margin-top: 5px;
+    color: #0f0a37;
+}
+
+form input{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-family: 'myFont', sans-serif;
+    color: #0f0a37;
+    border-bottom: 2px solid #10515d;
+    width: 100%;
+}
+
+#check{
+    display: inline-block;
+    margin-left: 0;
+    width: auto;
+    text-align: left;
+}
+
+form label{
+    color: #10515d;
+}
+
+form select{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #10515d;
+    color: #0f0a37;
+    font-size: 14px;
+    font-family: 'myFont', sans-serif;
+}
+
+form .entrada{
+    width: auto;
+    text-align: left;
+}
+
+#botao{
+    background-color: #e7007c;
+    margin-top: 8px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #eee;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+}
+
+#botao:hover{
+    opacity: 0.8;
+    background-color: #0f0a37;
+}
+#termos{
+    font-size: 13px;
+    color: black;
+}
+
+#anexo{
+    border: none;
+}
+
+#ingre{
+    display: block;
+    margin-left: 0;
+    width: auto;
+    text-align: left;
+}
+#rad{
+    display: block;
+}
+#fruit{
+    display: inline-block;
+    margin-left: 0;
+    width: auto;
+    text-align: left;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <title>Pizza</title>
+</head>
+<body>
+    <nav><div class="form-log">
+        <h2>Formularios</h2>
+    </div>
+        <div class="menu">
+            <a href="Pizza.html" target="_blank">Pizza</a>
+            <a href="Produto.html" target="_blank">Produto</a>
+            <a href="Evento.html" target="_blank">Evento</a>
+            <a href="Contato.html" target="_blank">Contato</a>
+        </div>
+    </div>
+    </nav>
+    <form action="">
+        <div>
+            <h2>Pedido de Pizza</h2>
+        </div>
+        <div class="entrada">
+            <label for="tamanho">Tamanho da Pizza: </label>
+            <select name="Pizza" id="select">
+                <option value="pequena">Pequena</option>
+                <option value="meda">Media</option>
+                <option value="grande">Grande</option>
+            </select>
+        </div>
+        <div class="entrada">
+            <label for="">Sabor: </label><br>
+            <input type="radio" id="rad" name="marguerita"><label for="marguerita">Marguerita</label>
+            <input type="radio" id="rad" name="marguerita"><label for="marguerita">Portuguesa</label>
+            <input type="radio" id="rad" name="marguerita"><label for="marguerita">Frango</label>
+        </div>
+        <div class="entrada">
+            <label for="">Ingredientes Adicionais: </label>
+            <input type="checkbox" id="ingre" name="Tomate"><label for="" id="fruit">Tomate</label>
+            <input type="checkbox" id="ingre" name="Azeitona"><label for="azeitona" id="fruit">Azeitona</label>
+            <input type="checkbox" id="ingre" name="cebola"><label for="cebola" id="fruit">Cebola</label>
+        </div>
+        <div class="entrada">
+            <label for="pagamento">Forma de Pagamento: </label>
+            <select name="pagamento" id="payment">
+                <option value="debito">Debito</option>
+                <option value="credito">Credito</option>
+                <option value="dinheiro">Dinheiro</option>
+            </select>
+        </div>
+        <button id="botao"type="submit">Enviar Pedido</button>
+    </form>
+    
+</body>
+</html>

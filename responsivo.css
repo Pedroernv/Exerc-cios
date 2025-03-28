@@ -1,0 +1,45 @@
+@media (max-width:580px) {
+    .menu{
+        display: none;
+    }
+    
+    form{
+        padding: auto auto auto auto;
+        width: auto;
+        height: auto;
+        margin-top: 0;
+    }
+}
+@media (max-width: 337px){
+    .menu{
+        display: none;
+    }
+    .form-log h1{
+        display: none;
+    }
+    form{
+        padding: auto auto auto auto;
+        width: auto;
+        height: auto;
+        margin-top: 0;
+    }
+    form textarea{
+        width: auto;
+    }
+}
+
+@media (max-width:561px){
+    form{
+        margin: auto 20%;
+        
+    }
+}
+@media (max-width:492px){
+    form{
+        margin: auto 20%;
+        
+    }
+    form .entrada textarea{
+        width: auto;
+    }
+}
